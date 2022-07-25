@@ -1,12 +1,27 @@
+
 h1 {
-    color: rgb(0, 112, 210);
+    color: #c59c5e;
+    display: center;
 }
 p {
-    font-family: 'Salesforce Sans', Arial, sans-serif;
+    font-family: 'Verdana', Arial, sans-serif;
     color: rgb(62, 62, 60);
+    font-size: 15px;
 }
 .app {
     background-color: #fafaf9;
     height: 100vh;
     overflow: scroll;
+}
+h3{
+    font-size: 15px;
+    font-family: 'Verdana';
+    color: #7d7d7d;
+    font-style: italic;
+}
+img{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+
 }

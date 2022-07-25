@@ -1,7 +1,7 @@
 import { LightningElement } from "lwc";
 
 export default class App extends LightningElement {
-  title = "Welcome to Lightning Web Components!";
+  title = "Bridgepointe Tools Guide to Success";
 
   showFeatures = true;
 
@@ -11,15 +11,15 @@ export default class App extends LightningElement {
   get features() {
     return [
       {
-        label: "Learn in the browser.",
+        label: "Get familiar with your tool's features",
         icon: "utility:edit",
       },
       {
-        label: "View changes to code instantly with Live Compilation.",
+        label: "Revisit trainings at your convenience",
         icon: "utility:refresh",
       },
       {
-        label: "Style your components with SLDS.",
+        label: "Become an expert on your tool with certifications",
         icon: "utility:brush",
       },
     ];

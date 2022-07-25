@@ -1,7 +1,7 @@
 <template>
 	<div class="app slds-p-around_x-large">
 		<h1 class="slds-text-heading_large">{title}</h1>
-		<h3>Write JavaScript, HTML, and CSS code, and preview the output in the interactive code editor.</h3>
+		<h3>Information hub for all tools related information</h3>
 
 		<!-- Using an if statement -->
 		<template if:true={showFeatures}>
@@ -17,14 +17,40 @@
 					</c-child>
 				</template>
 			</div>
+			<aura:component>
+				<div style="max-width: 400px;">
+					<lightning:inputAddress addressLabel="Address" streetLabel="Street" cityLabel="City" countryLabel="Country"
+						provinceLabel="Province" postalCodeLabel="PostalCode" street="121 Spear St." city="San Francisco"
+						country="US" province="CA" postalCode="94105" required="true"
+						fieldLevelHelp="Help Text for inputAddress field" />
+				</div>
+			</aura:component>
+
 		</template>
 
-		<h2 class="slds-text-heading_medium slds-p-top_large">Resources</h2>
-		<a
-			href="https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.get_started_introduction">
+		<h2 class="slds-text-heading_medium slds-p-top_large">What are tools?</h2>
+		<a href="https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.get_started_introduction">
 			Developer Guide
 		</a><br/>
 		<a href="https://developer.salesforce.com/docs/component-library/overview/components">Component Reference</a>
+		<div>
+			<h2 class="slds-text-heading_medium">Mobilo Business Card</h2>
+			<h2 class="slds-text-heading_medium slds-p-top_large">Why Mobilo?</h2>
+			<li>Our goals align in using technology to enhance our business</li>
+			<li>Our goals align in using technology to enhance our business</li>
+			<li>1 card - 4 functions</li>
+			<div>
+				<li>Share your contact information</li>
+				<li>Lead Generation Mode - Eliminates manual process of contact sharing</li>
+				<li>Share your contact information</li>
+				<li>Share your contact information</li>
+			</div>
 
+			<li>Good for the environment.</li>
+
+			<iframe width="80%" height="250" src="https://www.youtube.com/embed/Ein864T2IlU" title="YouTube video player"
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
 	</div>
 </template>
